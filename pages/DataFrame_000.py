@@ -61,4 +61,4 @@ st.write(
 
 data_frame_demo()
 
-#show_code(data_frame_demo)
+show_code(data_frame_demo)
