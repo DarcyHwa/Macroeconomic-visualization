@@ -21,7 +21,7 @@ def switch_page(page_name):
 # 在侧边栏使用按钮来切换页面
 with st.sidebar:
     st.write("经济数据可视化")
-    st.markdown('---')
+ 
     if st.button('可视化首页'):
         switch_page('page1')
     if st.button('生产数据页'):
