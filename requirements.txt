@@ -2,4 +2,9 @@ altair
 numpy
 pandas
 pydeck
+<<<<<<< HEAD
 streamlit
+=======
+streamlit
+pygwalker
+>>>>>>> 21c2c0e (Initial commit)

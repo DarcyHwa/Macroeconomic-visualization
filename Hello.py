@@ -28,6 +28,7 @@ def run():
 
     st.sidebar.success("Select a demo above.")
 
+<<<<<<< HEAD
     st.markdown(
         """
         Streamlit is an open-source app framework built specifically for
@@ -49,3 +50,32 @@ def run():
 
 if __name__ == "__main__":
     run()
+=======
+
+if __name__ == "__main__":
+    run()
+
+
+import pygwalker as pyg
+import pandas as pd
+import streamlit.components.v1 as components
+import streamlit as st
+ 
+# 调整Streamlit页面的宽度
+st.set_page_config(
+    page_title="在Streamlit中使用PyGWalker",
+    layout="wide"
+)
+ 
+# 添加标题
+st.title("在Streamlit中使用PyGWalker")
+ 
+# 导入你的数据
+df = pd.read_csv("https://kanaries-app.s3.ap-northeast-1.amazonaws.com/public-datasets/bike_sharing_dc.csv")
+ 
+# 使用PyGWalker生成HTML
+pyg_html = pyg.to_html(df)
+ 
+# 将HTML嵌入到Streamlit应用程序中
+components.html(pyg_html, height=1000, scrolling=True)
+>>>>>>> 21c2c0e (Initial commit)
