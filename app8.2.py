@@ -4,6 +4,7 @@ from page2 import app as page2_app
 from page3 import app as page3_app
 from page4 import app as page4_app
 from page5 import app as page5_app
+from page6 import app as page6_app
 
 # st.markdown(" <style>iframe{ height: 300px !important } ", unsafe_allow_html=True)
 # 设置页面配置
@@ -31,6 +32,8 @@ with st.sidebar:
         switch_page('page4')
     if st.button('其他数据页'):
         switch_page('page5')
+    if st.button('数据测试页'):
+        switch_page('page6')
 
 
 # 根据当前页面渲染相应的页面内容
@@ -44,6 +47,8 @@ elif st.session_state.current_page == 'page4':
     page4_app()
 elif st.session_state.current_page == 'page5':
     page5_app()
+elif st.session_state.current_page == 'page6':
+    page6_app()
 else:
     page1_app()
 

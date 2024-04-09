@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Welcome to visualization!
-=======
 # Welcome to streamlit
->>>>>>> 21c2c0e (Initial commit)
 
 This is the app you get when you run `streamlit hello`, extracted as its own app.
 
