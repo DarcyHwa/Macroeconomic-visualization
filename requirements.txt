@@ -1,8 +1,2 @@
-altair
-numpy
 pandas
-pydeck
 streamlit
-pygwalker
-streamlit-echarts
-pyecharts
