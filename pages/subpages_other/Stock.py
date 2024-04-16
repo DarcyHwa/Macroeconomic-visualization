@@ -1,7 +1,4 @@
 import streamlit as st
-from pyecharts import options as opts
-from pyecharts.charts import Bar
-from streamlit_echarts import st_pyecharts
 import akshare as ak
 import plotly.graph_objs as go
 import plotly.subplots as sp
